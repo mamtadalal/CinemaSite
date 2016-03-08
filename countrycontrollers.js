@@ -1,4 +1,4 @@
-var countryApp = angular.module('CinemaSite', []);
+var countryApp = angular.module('CinemaSite', ['ngRoute']);
 console.log("here");
 countryApp.controller('CountryCtrl', function ($scope, $http) {
   console.log("1");

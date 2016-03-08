@@ -1,4 +1,4 @@
-var countryApp = angular.module('countryApp', []);
+var countryApp = angular.module('CinemaSite', []);
 countryApp.controller('CountryCtrl', function ($scope, $http) {
 $http.get('countries.json').success(function(data) {
 $scope.countries = data;
